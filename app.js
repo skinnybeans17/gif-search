@@ -2,7 +2,7 @@
 const express = require('express');
 const Tenor = require("tenorjs").client({
   // Replace with your own key
-  "Key": "TENOR_API_KEY", // https://tenor.com/developer/keyregistration
+  "Key": "O589UOQ9ASTJ", // https://tenor.com/developer/keyregistration
   "Filter": "high", // "off", "low", "medium", "high", not case sensitive
   "Locale": "en_US", // Your locale here, case-sensitivity depends on input
 });
